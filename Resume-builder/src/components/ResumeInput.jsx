@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import api from '../Api';
 import { useNavigate } from 'react-router-dom';
+import  Resume1 from "../assets/images/Resume-Format.jpg";
+
 
 
 export default function ResumeInput() {
@@ -110,7 +112,7 @@ export default function ResumeInput() {
 
         {/*  */}
       <div className='img'>
-       <img className='resume-format' src="./src/assets/images/Resume-Format.jpg" alt="" data-bs-toggle="tooltip" data-bs-placement="top"
+       <img className='resume-format' src={Resume1} alt="" data-bs-toggle="tooltip" data-bs-placement="top"
         data-bs-custom-class="custom-tooltip"
         data-bs-title="This top tooltip is themed via CSS variables." /></div>
 

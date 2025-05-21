@@ -540,7 +540,29 @@ font-weight: bolder;
 
 /* mediaquariy */
 
+@media (max-width:1100px){
+    .instruction-img  .steps{
+        width: 30%;
+    }
+
+    .instruction-img  .steps img{
+        width: 100%;
+    }
+    .instruction-img .Title p{
+        width: 70%;
+    }
+
+
+}
+
 @media (max-width:600px){
+        .instruction-img  .steps{
+            width: 100%;
+        }
+            .instruction-img  .steps img{
+                width: 100%;
+            }
+
 
     
 
