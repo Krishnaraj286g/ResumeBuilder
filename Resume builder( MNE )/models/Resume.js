@@ -1,0 +1,38 @@
+const mongoose = require("mongoose");
+
+const resumeSchema = new mongoose.Schema({
+    userId : mongoose.Schema.Types.ObjectId,
+      fullname:String,
+      lastname :String,
+      email:String,
+      phoneNo:String,
+      pincode:String,
+      city:String,
+      state:String,
+      country:String,
+      address:String,
+      dob:String,
+      nationality:String,
+      schoolName:String,
+      schoolYear:String,
+      schoolFoE:String,
+      schoolDes:String,
+      qualification1:String,
+      qYear1:String,
+      qType1:String,
+      qDes1:String,
+      qualification2:String,
+      qYear2:String,
+      qType2:String,
+      qDes2:String,
+      certification:String,
+      skills:String,
+      expTitle:String,
+      expDes:String,
+      summary:String,
+      language:String,
+      project:String,
+      AandA:String,
+});
+
+module.exports = mongoose.model("Resume",resumeSchema);
